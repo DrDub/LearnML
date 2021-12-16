@@ -12,6 +12,8 @@ Processing of language is needed when a system wants to work based on input from
 
 Researchers are now using NLP to understand the meaning of large sets of documents from an analysis perspective which means that they can understand the different contexts and nuances of what phrases mean. 
 
+In research years, the field has come to be dominated by [deep learning](../dl/dl.md) approaches (see Collobert et al.).
+
 ## Data Mining
 
 Data mining is the process of analyzing data by searching for patterns to turn the data into information and better decisions. 
@@ -50,9 +52,9 @@ Example: social media posts about Climate Change.
 
 Example: an insurance company wants to identify fraudulent claims by classifying causes into main labels and then further analyze the ones containing suspicious content/topics.
 
-- **Text Generation:** to create new data (textual mainly) based on previous examples from the same domain. Example: chatbots, quotes, email replies, etc.
+- **Text Generation:** to create new data (textual mainly) based on previous examples from the same domain. 
 
-Example: chatbots, quotes , email replies, …, etc.
+Example: chatbots, quotes, weather reports, email replies, …, etc.
 
 - **Machine Translation:** to automatically convert from one language to another.
 
@@ -174,6 +176,8 @@ The general idea with document clustering is to assign each document a vector re
 
 - Text Summarization: TextRank (similar to PageRank) using PyTextRank SpaCy extension, TF-IDF using GenSim
 
+- Text Generation: SimpleNLG surface realization for children with cognitive problems.
+
 - Spell Check: PyEnchant, SymSpell Python ports
 
 
@@ -195,3 +199,4 @@ S. Bird, E. Klein, and E. Loper. Natural Language Processing with Python – Ana
 
 [The Current Conversational AI & Chatbot Landscape](https://cobusgreyling.medium.com/the-current-conversational-ai-chatbot-landscape-c147e9bcc01b)
 
+[Collobert et. al: Natural Language Processing (almost) from Scratch](https://arxiv.org/abs/1103.0398)
